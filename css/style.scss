@@ -1,0 +1,23 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.box{
+    height: 300px !important;
+    width: 500px !important;
+    background-color: lightgrey;
+}
+
+.userbox{
+    height: 100%;
+    width: 400px;
+    background-color: lightgrey;
+}
+
+.is-invalid{
+    border: 2px solid red;
+}
