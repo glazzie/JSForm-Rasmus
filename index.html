@@ -36,33 +36,64 @@
                     </div>    
                 </div>
             </div>
-            <div class="d-flex justify-content-between">
-                <div>
+            <div class="d-flex justify-content-center align-items-center flex-column">
+                <div class="w-100">
                     <label for="email" class="fs-4">Email</label>
                     <div>
-                        <input type="email" id="email" type="text" class="">
-                        <div class="text-danger" id="emailError"></div>
+                        <input type="email" id="email" type="text" class="w-100">
+                        <div class=" w-100 text-danger" id="emailError"></div>
                     </div>
                 </div>
                 <div>
+
+                    <button class="px-5 p-2 mt-4" id="editBtn">edit</button>
                     <button class="px-5 p-2 mt-4" id="addButton">add</button>
                     
                 </div>
             </div>
         </form>
 
-        <div class="userbox container mt-5" id="output">
+
+        <!-- <div class="userbox container mt-5">
             <h1 class="d-flex justify-content-center">Users</h1>
-            <div>
-                <div class="d-flex">
-                    <div class="firstName fs-4">Rasmus</div>
-                    <div class="lastName ms-2 fs-4">Andersson</div>
+            <div id="output">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <div class="d-flex">
+                            <div class="firstName fs-4">placeHolder</div>
+                            <div class="lastName ms-2 fs-4">placeHolder</div>
+                        </div>
+                
+                    <div class="userEmail align-self-start text-primary">placeHolder@live.se</div>
+                </div>
+
+                <button class="btn btn-danger delButton my-auto">X</button>
+            </div>
+        </div>-->
+
+        <div class="userbox container mt-5">
+            <h1 class="d-flex justify-content-center">Users</h1>
+            <div id="output">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <div class="d-flex">
+                            <div class="firstName fs-4">placeHolder</div>
+                            <div class="lastName ms-2 fs-4">placeHolder</div>
+                        </div>
+                
+                    <div class="userEmail align-self-start text-primary">placeHolder@placeHolder.se</div>
+                </div>
+                <div>
+                    <button onclick="Delete(this)" class="btn btn-danger delButton my-auto">X</button>
+                    <button class="btn btn-primary editButton my-auto "><i class="far fa-edit"></i></button>
                 </div>
                 
-                <div class="userEmail align-self-start text-primary">Rasse.andersson@live.se</div>
             </div>
         </div>
+        </div>
 
+
+        
 
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>

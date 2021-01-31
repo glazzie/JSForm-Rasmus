@@ -9,15 +9,22 @@ body{
 .box{
     height: 300px !important;
     width: 500px !important;
-    background-color: lightgrey;
+    background-color: rgb(155, 107, 107);
 }
 
 .userbox{
     height: 100%;
-    width: 400px;
-    background-color: lightgrey;
+    width: 500px;
+    background-color: rgba(255, 126, 126, 0.342);
 }
 
 .is-invalid{
     border: 2px solid red;
+}
+
+.editButton, .delButton{
+    width: 40px;
+}
+
+#editBtn{
 }
